@@ -1,0 +1,10 @@
+Ostap Boychuk
+Lab 1 Git
+
+"git init" is a command used in the Git version control system to initialise a new repository. When I run "git init" in a directory, it creates a new Git repository that allows me to track and manage changes in project files. This command sets up the necessary directories and data structures. It also creates a hidden .git directory where Git stores project information such as commit history, branches, and configuration settings.
+ 
+The "git remote add origin" command is used in Git to set up a connection between your local Git repository and a remote repository, typically hosted on a platform like GitHub or GitLab. The term "origin" is a conventional name for the remote repository, but it can be customized. When you run "git remote add origin <URL>", you're essentially telling Git where to find the remote repository.
+ 
+"git status" is a Git command that provides a summary of the current state of a local Git repository. When you run "git status," Git will display information about which files are tracked or untracked, which changes have been made but not committed, and the current branch you are on. This command is helpful for understanding the status of the project you are doing.
+ 
+ 
