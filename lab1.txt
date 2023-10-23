@@ -1,6 +1,0 @@
-Ostap Boychuk c00301627
-Init 
- 
-Create a new empty Git repository. 
-
-
