@@ -7,4 +7,18 @@ The "git remote add origin" command is used in Git to set up a connection betwee
  
 "git status" is a Git command that provides a summary of the current state of a local Git repository. When you run "git status," Git will display information about which files are tracked or untracked, which changes have been made but not committed, and the current branch you are on. This command is helpful for understanding the status of the project you are doing.
  
+"git add ." - is a Git command that stages all changes in the current directory and its subdirectories for the next commit. When you run "git add .", Git will keep track of any new files and stage changes to existing files. It is often used when a developer wants to include all the changes they have made to your project before creating a new commit, saving time and ensuring that all their modifications are included in the future commit.
+ 
+"git commit" is a Git command used to commit changes to your local Git repository. When you run "git commit", you create a snapshot of the changes you made (using "git add") and provide a descriptive entry that explains the purpose or context of the commit. Each commit is a point in the history of your project, making it easier to track changes, collaborate with others, and revert to previous versions if necessary.
+ 
+"git push" is a Git command used to push locally committed changes to a remote Git repository. When you run a git push, Git transfers your code, along with its commit history and branches, to a remote server, making it available to others and updating the remote repository with your changes.
+ 
+"git branch" is a Git command used to list, create, or delete branches in a Git repository. When you run "git branch" without any arguments, it displays a list of all existing branches, indicating which one is the current branch with an asterisk. You can also use "git branch" to create a new branch by specifying its name, and to delete branches using the "-d" or "-D" flag.
+ 
+git rm --cached <file>: This command will prepare the file for removal from the repository, but it will remain in your working directory. This is useful when you want to stop tracking a file but keep it locally.
+"git rm" helps you manage your project's file structure by removing unnecessary or outdated files from version control.
+ 
+"git pull" is a Git command that combines two actions in one step: it pulls changes from a remote repository and then automatically merges those changes into your current branch. This command is useful for updating your local code base in a remote repository, ensuring that you have the latest changes made by others in your project. However, in some cases, this can lead to merge conflicts that will need to be resolved manually.
+ 
+"git clone" is a Git command used to create a copy of a remote Git repository on your local machine. When you run "git clone", it downloads all files, commit history and branches from the remote repository and creates a local copy, allowing you to work with the project's code and history.
  
